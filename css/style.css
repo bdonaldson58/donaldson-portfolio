@@ -1,0 +1,326 @@
+/* Global */
+
+
+
+/* Navbar */
+.navbar-default {
+  background-color: #111111;
+  border-color: #111111;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #999999;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #999999;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #999999;
+  background-color: #111111;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #999999;
+  background-color: #111111;
+}
+.navbar-default .navbar-toggle {
+  border-color: #111111;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #111111;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #999999;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #999999;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #999999;
+    background-color: #111111;
+  }
+}
+
+
+
+
+.navbar-default{
+    min-height: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ 
+.navbar-nav li{
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+#menu-links{
+ margin-left: 30px;
+}
+
+.navbar-brand{
+    padding-top: 15px;
+}
+
+.menu-links{
+    padding-top: 5px;
+}
+
+ul.navbar-social{
+    color: #ffffff;
+}
+
+ul.navbar-social li{
+    padding-left: 30px;
+    font-size: 200%;
+}
+
+/* Media Queries */
+
+@media (max-width: 1000px){
+  ul.navbar-social{
+    display:none;
+  }
+  .navbar-brand{
+      margin-right: 0px;
+  }
+}
+
+/* Home Page */
+
+.showcase{
+    min-height: 650px;
+    background: url('../img/showcase.jpg') no-repeat 0 -400px;
+}
+
+.showcase-text{
+    margin-top: -400px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    background: #111;
+    border-radius: 5%;
+}
+
+#learn-more{
+    margin-top: -250px;  
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active {
+    background-color: #111111;
+    border-color: #111111;
+}
+
+.btn-success{
+    background-color: #4CAF50;
+    font-weight: bold;
+    font-size: 300%;
+}
+
+#nounderline{
+    text-decoration: none;
+    
+}
+
+.home-summary .well{
+    margin: 50px;
+    padding: 0 50px 0 50px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.home-summary{
+    background-color: #dddddd;
+    margin-top: -5px;
+}
+
+.home-summary hr{
+    border-top: 5px double #000000;
+}
+
+.home-summary p{
+    font-size:125%;
+}
+
+/* About Page and Portfolio Page */
+
+#about-comp, #portfolio-comp, #contact-comp{
+    margin-top: 100px;
+}
+
+#about-comp h1, #portfolio-comp h1, #contact-comp h1{
+    font-size: 500%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#about-comp h2,
+#about-comp p,
+#portfolio-comp h2,
+#portfolio-comp p,
+#contact-comp h2,
+#contact-comp p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#bio1, #portfolio-bio{
+    height: 350px;
+    border-radius: 10%;
+}
+
+.kansas-pic{
+    width: 20px;
+}
+
+
+#about-section1,
+#portfolio-section1,
+#contact-section1{
+    margin-bottom: 20px;
+}
+
+#about-section2,
+#portfolio-section2,
+#contact-section2{
+    background: #dddddd;
+    margin-bottom: 20px;
+}
+
+#about-section2 p, 
+#about-section3 p, 
+#about-section4 p{
+    font-size: 125%;
+}
+
+#about-section3{
+    margin-bottom: 20px;
+}
+#about-section4, #portfolio-section4{
+    background: #dddddd;
+    padding: 20px 0;
+}
+
+#about-section4 #bio1{
+    margin-top: 30px;
+}
+
+
+/* Portfolio Page */
+#portfolio-pic-main{
+    width: 250px;
+    padding-right: 30px;
+    margin: 30px 0 20px 0;
+}
+
+#portfolio-pic{
+    width: 225px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+
+#portfolio-pic2{
+    width: 250px;
+    padding-right: 30px;
+    margin: 30px 0 20px 0;
+}
+
+#portfolio-pic3{
+    width: 400px;
+    padding-right: 30px;
+    margin: 30px 0 20px 0;
+}
+
+.portfolio-section{
+    margin-top: 50px;
+}
+
+/* Contact Page */
+
+#contact-section1 form{
+    margin-top: 50px;
+}
+
+#contact-section1 {
+    margin-bottom: 80px;
+}
+
+.btn-success{
+    font-weight: bold;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+#contact-pic{
+    height: 350px;
+    border-radius: 10%;
+}
+
+/* Footer */
+
+footer{
+    margin: -5px;
+    background-color: #111;
+    min-height: 300px;
+    color: #ffffff;
+    padding: 30px 0 0 0;
+}
+
+footer .btn-default:hover,
+footer .btn-default:focus,
+footer .btn-default:active,
+footer .btn-default.active {
+    background-color: #111111;
+    border-width: 0 0 2px 0;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+footer .btn-default{
+    background-color: #111111;
+    border-color: #111111;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+footer .btn-group{
+    margin-top: -5px;
+}
+
+
+
+
+
+
