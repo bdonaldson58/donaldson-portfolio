@@ -54,7 +54,7 @@
                 <div class="col-md-6 text-center">
                     <h1><b>2013-2016</b></h1>
                     <h2>Working at WG Storage and Delivery</h2>
-                    <p>When I first moved down to Texas, I was looking for a labor position temporarily
+                    <p>When I first moved to Texas, I was looking for a labor position temporarily
                         until I found a sales position.  I ended up getting a job at White Glove, and I 
                         enjoyed it so much that I stayed for almost three years. I worked in and out of million
                         dollar homes, doing everything from full home transfers to high end furniture delivery. 
@@ -70,10 +70,10 @@
     <section id="about-section4">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-6 text-center">
-                    <img class="kansas-pic" id="bio1" src="./img/Brendan-KU.jpg">
+                <div class="col-sm-12 col-md-6 text-center">
+                    <img id="bio1" src="./img/Brendan-KU.jpg">
                 </div>
-                <div class="col-sm-6 col-md-6 text-center">
+                <div class="col-sm-12 col-md-5 col-md-offset-1 text-center">
                     <h1><b>2007-2011</b></h1>
                     <h2>University of Missouri-Columbia</h2>
                     <a href="http://www.columbiatribune.com/sports/mu_football/no-stretch-to-call-donaldson-valuable/article_280b8dd4-a97d-5112-9baf-0f68d5b74e9f.html" target="_blank">"No stretch to call Donaldson valuable"</a>

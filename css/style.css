@@ -201,9 +201,7 @@ ul.navbar-social li{
     border-radius: 10%;
 }
 
-.kansas-pic{
-    width: 20px;
-}
+
 
 
 #about-section1,
@@ -265,6 +263,11 @@ ul.navbar-social li{
 
 .portfolio-section{
     margin-top: 50px;
+}
+
+#portfolio-section-last{
+    background: #dddddd;
+    margin-bottom:0;
 }
 
 /* Contact Page */
