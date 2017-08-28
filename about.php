@@ -70,8 +70,8 @@
     <section id="about-section4">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-6 text-center">
-                    <img id="bio1" src="./img/Brendan-KU.jpg">
+                <div class="col-sm-12 col-md-6 text-center col-xs-12">
+                    <img id="about-ku" src="./img/Brendan-KU.jpg">
                 </div>
                 <div class="col-sm-12 col-md-5 col-md-offset-1 text-center">
                     <h1><b>2007-2011</b></h1>
